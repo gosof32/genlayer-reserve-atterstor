@@ -1,0 +1,16 @@
+{
+  "name": "genlayer-reserve-attestor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test:contract": "pytest",
+    "check-sources": "node scripts/check-sources.mjs",
+    "plan": "DRY_RUN=1 node scripts/deploy-seed-studionet.mjs",
+    "deploy:studionet": "node scripts/deploy-seed-studionet.mjs"
+  },
+  "dependencies": {
+    "genlayer-js": "1.1.8"
+  }
+}
